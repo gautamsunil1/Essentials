@@ -1,0 +1,65 @@
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: orange;
+}
+.left-side{
+    display: flex;
+}
+.navigation-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent ;
+    transition: border-bottom 0.5s;
+}
+.link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+.link-wrapper a:hover {
+    color: black;
+}
+.active-nav-link {
+    border-bottom: 1px solid black;
+  }
+  
+  .active-nav-link a {
+    color: black !important;
+  }
+  .brand > img{
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+  }
+.footer{
+    align-self: baseline;
+}
+.email{
+    text-align: center;
+}
+.contact-no{
+    text-align: center;
+}
+.address{
+    text-align: center;
+}
+.registered{
+    text-align: center;
+}
+.footer-wrapper{
+    background-color: steelblue;
+}
+.content-wrapper{
+    background-size: cover;
+    background-color: gold;
+}
